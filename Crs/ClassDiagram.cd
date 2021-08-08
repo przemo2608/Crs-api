@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Crs.Data.CarDb">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAgAAAAAAAA=</HashCode>
+      <FileName>Data\CarDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crs.Data.NewsDb">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Data\NewsDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crs.Data.OrderDb">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAEAAAgAEAAAAAAAACAAAAAAhAAAAABAAAAAAA=</HashCode>
+      <FileName>Data\OrderDb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Crs.Data.RoleDb">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\RoleDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crs.Data.UserDb">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEECAAIAACAAAAAAEQAAAAQABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Data\UserDb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Crs.Data.UserCarDb">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAQAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\UserCarDb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Crs.Services.CarService">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAQAAAAAAAAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Services\CarService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Crs.Services.NewsService">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Services\NewsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Crs.Services.OrderService">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAAAAAAAAAAAAIAQAAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>Services\OrderService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Crs.Services.RoleService">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\RoleService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Crs.Services.UserService">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAQAQAAAEAgAAAAAAAAAAAAAAEAAAAAABAAA=</HashCode>
+      <FileName>Services\UserService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.762" />
+  </Class>
+  <Interface Name="Crs.Services.ICar">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Services\ICar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Crs.Services.INews">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Services\INews.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Crs.Services.IOrder">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAAAAAAAAAAAAIAQAAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>Services\IOrder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Crs.Services.IRole">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IRole.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Crs.Services.IUser">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAQAAAAAEAgAAAAAAAAAAAAAAEAAAAAABAAA=</HashCode>
+      <FileName>Services\IUser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
